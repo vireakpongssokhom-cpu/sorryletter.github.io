@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>I’m sorry</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,400&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <section class="intro" id="intro">
+    <h2>I wrote you a letter</h2>
+    <button class="envelope" id="open" aria-label="Open the letter">
+      <span class="flap"></span>
+      <span class="seal">♥</span>
+    </button>
+    <small>Tap the letter to open it</small>
+  </section>
+
+  <div id="page" hidden>
+    <h1>I’m sorry.</h1>
+    <p class="sub">For making you cry last night.</p>
+
+    <article class="letter">
+      <p>I hate that I hurt you. Seeing you cry because of something I did is one of the worst feelings I’ve ever had, and I keep replaying it.</p>
+      <p>I’m not here with excuses. What I said and did was wrong, and you didn’t deserve it. Your feelings are real and they matter to me more than being right ever will.</p>
+      <p>You are the person I want to make laugh, not cry.</p>
+      <p class="sign">With all my love.</p>
+    </article>
+
+    <section class="ask" aria-live="polite">
+      <p>You want to forgive me??</p>
+      <div class="btns">
+        <button class="yes" id="yes">I forgive you</button>
+        <button class="wait" id="wait">No, I need you to be here!</button>
+      </div>
+      <div id="reply"></div>
+    </section>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
